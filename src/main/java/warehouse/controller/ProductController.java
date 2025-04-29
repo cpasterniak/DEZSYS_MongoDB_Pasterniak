@@ -9,8 +9,8 @@ import warehouse.service.WarehouseService;
 @RestController
 @RequestMapping("/product")
 public class ProductController {
-    private ProductService service;
-    private WarehouseService warehouseService;
+    private final ProductService service;
+    private final WarehouseService warehouseService;
 
     public ProductController(ProductService service, WarehouseService warehouseService) {
         this.service = service;

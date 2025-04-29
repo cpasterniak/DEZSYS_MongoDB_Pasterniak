@@ -9,7 +9,7 @@ import warehouse.model.ProductData;
 import warehouse.repository.WarehouseRepository;
 
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+public class Application {
 
 	@Autowired
 	private WarehouseRepository repository;
@@ -17,7 +17,8 @@ public class Application implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
-
+}
+/**
 	@Override
 	public void run(String... args) throws Exception {
 
@@ -64,3 +65,4 @@ public class Application implements CommandLineRunner {
 	}
 
 }
+*/

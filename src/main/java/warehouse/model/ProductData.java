@@ -9,7 +9,6 @@ public class ProductData {
 
     @Id
 	private String ID;
-
 	private String warehouseID;
 	private String productID;
 	private String productName;

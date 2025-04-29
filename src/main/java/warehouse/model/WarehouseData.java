@@ -10,7 +10,7 @@ public class WarehouseData {
     @Id
     @Getter
     @Setter
-    private Long warehouseID;
+    private String warehouseID;
 
     @Getter
     @Setter
